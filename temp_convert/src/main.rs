@@ -3,6 +3,7 @@ use std::io;
 fn main() {
     println!("convert Temperatures");
 
+    //CorF = celcius or fareneheit
     let mut corf = String::new();
 
     println!("Press 1 to convert to celius and 0 for farenheit");
@@ -19,6 +20,7 @@ fn main() {
 
     let mut temp: i32 = temp.trim().parse().expect("Please enter a number");
 
+    //The temp conversion expressions for both corf options
     temp = if corf == 1 {
         (temp - 32) * 5/9
        } else {
