@@ -20,13 +20,16 @@ fn main() {
 
     let mut temp: i32 = temp.trim().parse().expect("Please enter a number");
 
-    //The temp conversion expressions for both corf options
-    temp = if corf == 1 {
-        (temp - 32) * 5/9
+    let temp_string;
+    //The temp conversion outputs for both corf options
+    if corf == 1 {
+        temp_string = String::from("Celcius");
+        temp = (temp - 32) * 5/9;
        } else {
-        (temp * 9/5) + 32
+        temp_string = String::from("Farenheit");
+        temp = (temp * 9/5) + 32;
        };
       
     
-    println!("{} degrees", temp);
+    println!("{} degrees {}", temp, temp_string);
 }
