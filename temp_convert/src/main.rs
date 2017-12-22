@@ -6,7 +6,7 @@ fn main() {
     //CorF = celcius or fareneheit
     let mut corf = String::new();
 
-    println!("Press 1 to convert to celius and 0 for farenheit");
+    println!("Press 1 to convert to celcius and 0 for farenheit");
 
     io::stdin().read_line(&mut corf).expect("Error");
 
