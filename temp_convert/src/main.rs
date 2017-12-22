@@ -30,6 +30,5 @@ fn main() {
         temp = (temp * 9/5) + 32;
        };
       
-    
     println!("{} degrees {}", temp, temp_string);
 }
