@@ -22,6 +22,7 @@ fn main() {
 
     let temp_string;
     //The temp conversion outputs for both corf options
+    //See if this can be shortened
     if corf == 1 {
         temp_string = String::from("Celcius");
         temp = (temp - 32) * 5/9;
