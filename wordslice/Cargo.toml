@@ -1,0 +1,6 @@
+[package]
+name = "wordslice"
+version = "0.1.0"
+authors = ["Dustin <magicdustin14@gmail.com>"]
+
+[dependencies]
