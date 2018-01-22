@@ -1,3 +1,4 @@
+//matches are a better version of switch for rust
 // COIN MATCHING
 // #[derive(Debug)] // So we can inspect the state in a minute
 // enum UsState {
